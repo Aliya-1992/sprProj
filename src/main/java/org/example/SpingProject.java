@@ -1,19 +1,17 @@
 package org.example;
 
 
-import org.example.entity.User;
-import org.example.repository.UserRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication()
-public class SpringEmailDemoApplication {
+public class SpingProject {
 
 
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringEmailDemoApplication.class, args);
+        SpringApplication.run(SpingProject.class, args);
         System.out.println("http://localhost:8096/");
 
     }
